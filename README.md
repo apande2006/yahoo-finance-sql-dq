@@ -14,5 +14,5 @@ Key fields: `STOCK_TICKER`, `EXCHANGE`, `CLOSING_PRICE`, `BID`, `ASK`, `VOLUME`,
 ## Outputs
 - Cleaned universe row count
 - Issue flag counts for soft-fail conditions
-## How to run
-Run queries in: 
+## Reproducibility
+Queries were executed in Databricks SQL against `bright_data_yahoo_finance_business_dataset.datasets.yahoo_finance_business`.
